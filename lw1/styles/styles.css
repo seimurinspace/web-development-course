@@ -200,7 +200,6 @@ body {
       /*HERO*/
       .hero {
         position: relative;
-        position: absolute;
         z-index: 0;
       }
 
