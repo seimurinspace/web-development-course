@@ -116,31 +116,36 @@ body {
         background: #ffffff;
         padding: 1em 2.5em 0 2.5em;
       }
+
       .bg_white tr {
         border-bottom: 1px solid rgba(0,0,0,.05);
       }
+
       .bg_white td {
-        text-align:left; 
+        text-align: left; 
         padding: 1em 2.5em;
       }
+
       .text_item {
-        text-align:left; 
+        text-align: left; 
         padding: 0 2.5em; 
         color: #000;
         padding-bottom: 20px;
-        width:80%;
+        width: 80%;
       }
+
       .text_price {
-        text-align:left;
+        text-align: left;
         padding: 0 2.5em;
         color: #000;
         padding-bottom: 20px;
         width:20%;
       }
+
       .bg_white td {
-        text-align:left; 
+        text-align: left; 
         padding: 0 2.5em;
-        width:80%;
+        width: 80%;
       }
       .bg_light {
         background: #ffffff;
@@ -171,7 +176,7 @@ body {
       .btn.btn-primary {
         border-radius: 5px;
         background: #17bebb;
-        color: #ffffff;
+        color: #ffffff;  
       }
 
       .btn.btn-white {
@@ -198,8 +203,11 @@ body {
       .btn-custom {
         color: rgba(0, 0, 0, .3);
         text-decoration: underline;
+      }    
+      .btn-td p {
+        margin-left:23%;
+        text-align: center;
       }
-
       h1,
       h2,
       h3,
@@ -232,7 +240,7 @@ body {
       }
       .logo h1 {
         margin: 0;
-        text-align:left;
+        text-align: left;
       }
 
       .logo h1 a {
