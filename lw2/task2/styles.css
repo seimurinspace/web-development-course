@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-buttons {
+  width: auto;
+  margin: 5em 0 0 5em;
+}
+
+button {
+  margin: 1%;
+  border-radius: 0;
+  padding: 10px 5px;
+  font-size: 0.8em;
+}
+
+.button {
+  border-radius: 3px;
+}
+
+.button-rounded {
+  border-radius: 20px;
+}
+
+.button-large {
+  font-size: 1em;
+  color: dimgray;
+  background-color: white;
+}
+
+.button-large.button-filled {
+  background-color: dimgray;
+  color: white;
+}
+
+.button-primary {
+  border-color: blueviolet;
+  color: blueviolet;
+}
+
+.button-primary.button-filled {
+  background: blueviolet;
+  color: white;
+}
+
+.button-success {
+  border-color: rgb(40, 139, 40);
+  color: rgb(40, 139, 40);
+}
+
+.button-success.button-filled {
+  background-color: rgb(40, 139, 40);
+  color: white;
+}
+
+.button-medium {
+  border-color: deepskyblue;
+  color: deepskyblue;
+  font-size: 0.75em;
+}
+
+.button-medium.button-filled {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.button-warning {
+  font-size: 0.7em;
+  border-color: darkorange;
+  color: darkorange;
+  padding: 9px 4px;
+}
+
+.button-warning.button-filled {
+  background-color: darkorange;
+  color: white;
+}
+
+.button-red {
+  font-size: 0.7em;
+  border-color: red;
+  color: red;
+  padding: 8px 5px;
+}
+
+.button-red.button-filled {
+  background-color: red;
+  color: white;
+}
