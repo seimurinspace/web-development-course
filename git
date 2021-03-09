@@ -1,0 +1,77 @@
+[33mcommit 3526f7a6566a9f078c0c814cebbb6bf0f6f9bbfb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Fri Mar 5 22:30:18 2021 +0300
+
+    Created index-dark.html to resemble index-light, but a container block was created to change parameters for it by Belousov M.S.
+
+[33mcommit d86331c966c201642ac61ded917cc28d01234999[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Fri Mar 5 22:27:36 2021 +0300
+
+    Created css file and called styles.css and added parameters for html file,  also added pictures to the images folder by Belousov M.s
+
+[33mcommit bcafa1a01ccb4db05b5b4a863e664df0485c1ce2[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Fri Mar 5 22:23:55 2021 +0300
+
+    Created html file and its structure by Belousov M.S
+
+[33mcommit ad01650f434010cea052a895806750827fccbcea[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Mon Feb 15 22:14:07 2021 +0300
+
+    Removed unnecessary spaces in style. css and index.html by Belousov M. S.
+
+[33mcommit 83cf711f8c83b044649a12bef2d0a358180ee879[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 21:36:17 2021 +0300
+
+    Fixed css file formatting errors, according to the requirements of by Belousov Maksim
+
+[33mcommit 8bd43aa0be3eb31e7f6c938b67ed8bca82dfdc5c[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 21:33:42 2021 +0300
+
+    Added a new class to center the <Continue your order> button, and added css properties for this button by Belousov Maksim
+
+[33mcommit 17dd1b1135eeff7585412fb80669329ddae86141[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 02:38:04 2021 +0300
+
+    All properties in <style> attribute moved from html file to css. Correction was made with class names by Belousov M.S.
+
+[33mcommit c96c880ab2b4ae9c83e593952d310a0fc976e052[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 01:52:56 2021 +0300
+
+    Changed style properties in styles.css and index.html, changed the text in the heading <h2> byBelousov M.S.
+
+[33mcommit 75f6ae6051048cd3a09ac10dbeb6335ac1c9b261[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 01:48:55 2021 +0300
+
+    Added images that were not there by Belousov M.S.
+
+[33mcommit f6f7db184599a8e73df5a74d9a308eb77696803c[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 01:45:52 2021 +0300
+
+    Fixed setting of tags, writing styles properties in index.html and moved the styles.css file to lw1 / styles / styles.css by Belousov M.S.
+
+[33mcommit 0a7a6a6fff9addaf14ddf80e78d17a33027883e7[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 01:32:57 2021 +0300
+
+    Move styles from index.html
+
+[33mcommit 8e87724082d8d9a7caa54728db354930dcfab629[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 01:30:10 2021 +0300
+
+    Import exist html code from example
+
+[33mcommit 4f8e7deaa95999e500c0b4dd11d0fcc892d28cc9[m
+Author: Макс <seimurinspace@mail.ru>
+Date:   Wed Feb 10 01:28:21 2021 +0300
+
+    Init repo, create project for lw1 by Maksim Belousov
