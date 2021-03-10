@@ -1,7 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 80px 40px;
   position: relative;
   width: 1400px;
@@ -29,9 +26,6 @@ body {
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 80px 0px;
 }
 
@@ -47,7 +41,7 @@ body {
   padding: 0px;
 
   position: relative;
-  width: 607px;
+  width: 667px;
   height: 88px;
   left: 35.5px;
   top: 0px;
@@ -55,19 +49,17 @@ body {
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 12px 0px;
 }
 
 h1 {
-  /* Display Small / ExtraBold - 1200+ */
-  position: relative;
+  position: static;
   width: 161px;
   height: 88px;
   left: 0px;
   top: 0px;
+
+  /* Display Small / ExtraBold - 1200+ */
 
   font-family: Josefin Sans;
   font-style: normal;
@@ -88,18 +80,24 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px;
+  margin: 0px 16px;
 }
 
 .underline-text {
+  /* Underlined */
+
+
+  /* Auto Layout */
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: center;
-  position: relative;
-  width: 375px;
+  padding: 0px 16px;
+
+  position: static;
+  width: 400px;
   height: 88px;
-  left: 0px;
+  left: 177px;
   top: 0px;
 
   /* Effect / Underline */
@@ -111,12 +109,41 @@ h1 {
   flex: none;
   order: 1;
   flex-grow: 0;
-
+  margin: 0px 16px;
 }
 
 .underline-text h1 {
+  /* Programs */
+
+
+  position: static;
+  width: 398px;
   height: 88px;
   left: 16px;
+  top: 0px;
+
+  /* Display Small / ExtraBold - 1200+ */
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 86px;
+  line-height: 88px;
+  /* identical to box height, or 102% */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* Text / Black */
+
+  color: #121212;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
 }
 
 .hero {
@@ -131,15 +158,13 @@ h1 {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   /* or 156% */
 
   text-align: center;
 
-  flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 12px 0px;
 }
 
@@ -153,24 +178,18 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 10px 50px;
 
-  position: static;
   width: 1304.01px;
   height: 456px;
-  left: 67.99px;
-  top: 344px;
-
 
   /* Inside Auto Layout */
 
-  flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 80px 0px;
 }
 
-.row {
+.program-list {
   /* Row */
 
 
@@ -190,13 +209,10 @@ h1 {
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 40px 0px;
 }
 
-.item {
+.program-list-item {
   /* Auto Layout */
 
   display: flex;
@@ -213,9 +229,7 @@ h1 {
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
   margin: 0px 16px;
 }
 
@@ -239,9 +253,6 @@ h1 {
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 0px;
 }
 
@@ -259,17 +270,10 @@ img {
   position: static;
   width: 208px;
   height: 208px;
-  left: 0px;
-  top: 0px;
-
-  background: url(.jpg);
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
   align-self: stretch;
-  flex-grow: 0;
   margin: 0px 0px;
 }
 
@@ -279,53 +283,24 @@ img {
   align-items: flex-start;
   padding: 0px;
 
-  position: static;
+  position: relative;
   width: 436px;
   height: 208px;
-  left: 208px;
-  top: 0px;
-
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-
-.item-text {
-  /* Text */
-
-
-  /* Auto Layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: relative;
-  width: 388px;
-  height: 148px;
   left: 24px;
   top: 0px;
 
 
   /* Inside Auto Layout */
 
-  flex: none;
   order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-
+  margin: 0px 0px;
 }
 
-.item-text h2 {
+
+.item-content h2 {
   position: static;
   width: 388px;
   height: 40px;
-  left: 0px;
   top: 0px;
 
   /* F3 / ExtraBold - 1200+ */
@@ -346,22 +321,18 @@ img {
 
   /* Inside Auto Layout */
 
-  flex: none;
   order: 1;
   align-self: stretch;
-  flex-grow: 0;
-  margin: 4px 0px;
+  margin: 4.9px 0px;
 }
 
-.item-text p {
+.item-content p {
   /* Description */
-
-
   position: static;
   width: 388px;
+  left: 24px;
+  top: 32px;
   height: 96px;
-  left: 0px;
-  top: 52px;
 
   /* Paragraph Small / Regular */
 
@@ -381,11 +352,9 @@ img {
 
   /* Inside Auto Layout */
 
-  flex: none;
   order: 1;
   align-self: stretch;
-  flex-grow: 0;
-  margin: 12px 0px 0px;
+  margin: 3px 0px 0px;
 }
 
 .actions {
@@ -403,15 +372,13 @@ img {
   width: 358px;
   height: 44px;
   left: 24px;
-  top: 164px;
+  top: 144px;
 
 
   /* Inside Auto Layout */
 
-  flex: none;
   order: 3;
   align-self: stretch;
-  flex-grow: 0;
   margin: 7.5px 0px;
 }
 
@@ -426,18 +393,14 @@ img {
   align-items: center;
   padding: 0px;
 
-  position: static;
   width: 144px;
   height: 36px;
   left: 0px;
-  top: calc(50% - 36px/2 - 4px);
 
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
   margin: 8px 0px;
 }
 
@@ -449,11 +412,7 @@ img {
   align-items: center;
   padding: 8px 12px;
 
-  position: relative;
-  left: 24px;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
+  position: static;
 
   /* Action Primary / Default */
 
@@ -465,10 +424,7 @@ img {
 
   /* Inside Auto Layout */
 
-  flex: none;
-  order: 0;
   align-self: center;
-  flex-grow: 0;
   margin: 0px 0px;
 }
 
@@ -500,9 +456,7 @@ img {
 
   /* Inside Auto Layout */
 
-  flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 0px 8px;
 }
 
@@ -526,4 +480,5 @@ a {
 
 .container-dark .item-main {
   background: #121212;
+}
 }
