@@ -275,7 +275,7 @@ tbody {
 }
 
 .checkout-button {
-  width: 70%;
+  width: 75%;
   background-color: #001548;
   color: white;
   font-family: 'Work Sans',
@@ -285,7 +285,7 @@ tbody {
 }
 
 .checkout-basket {
-  width: 30%;
+  width: 25%;
   background-color: #001548;
   margin-left: 2px;
   padding: 15px 0;
