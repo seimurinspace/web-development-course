@@ -6,6 +6,11 @@ body {
   background: #f1f1f1;
 }
 
+* {
+  font-family: 'Work Sans',
+    sans-serif;
+}
+
 .logo {
   text-align: center;
   margin: 40px;
@@ -23,7 +28,7 @@ a {
 .logo h1 a {
   color: #001548;
   font-size: 30px;
-  font-family: 'Work Sans', sans-serif;
+
 }
 
 .container-product {
@@ -45,7 +50,7 @@ tbody {
 
 .section-head tr {
   border-bottom: 5px solid rgba(0, 0, 0, .05);
-  font-family: 'Work Sans', sans-serif;
+
 }
 
 .section-head td {
@@ -207,12 +212,6 @@ tbody {
 
 .product-summarized td {
   margin-bottom: 30px;
-}
-
-.sum-discount,
-.sum-delivery,
-.sum-subtotal,
-.sum-total {
   display: flex;
   width: 300px;
   height: 100px;
@@ -221,14 +220,14 @@ tbody {
   margin: 0 10px;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Work Sans',
-    sans-serif;
 }
+
+
 
 .promocode-list p {
   color: #001548;
   font-size: 15px;
-  font-family: 'Work Sans', sans-serif;
+
 }
 
 .promocode-form {
@@ -239,12 +238,10 @@ tbody {
 .apply-discount {
   width: 31%;
   background-color: #001548;
+  color: white;
+  padding: 17px 0;
 }
 
-.apply-discount p {
-  color: white;
-  left: 30px;
-}
 
 .promocode-form input {
   width: 66%;
@@ -278,8 +275,7 @@ tbody {
   width: 75%;
   background-color: #001548;
   color: white;
-  font-family: 'Work Sans',
-    sans-serif;
+
   padding: 15px 0;
 
 }
@@ -289,19 +285,17 @@ tbody {
   background-color: #001548;
   margin-left: 2px;
   padding: 15px 0;
-
 }
 
-.checkout-basket img {
+.basket-img {
   width: 15px;
-  left: 0;
   -webkit-filter: invert(1);
   filter: invert(1);
+  margin-left: 25px;
 }
 
 .update-quantity-button {
-  font-family: 'Work Sans',
-    sans-serif;
+
   padding: 15px 0;
   margin: 10px 0;
   border-width: 5px;
@@ -311,8 +305,7 @@ tbody {
 }
 
 .continue-button {
-  font-family: 'Work Sans',
-    sans-serif;
+
   padding: 15px 0;
   border-width: 5px;
   padding: .75rem 1rem;

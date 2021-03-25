@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
-  xmlns:o="urn:schemas-microsoft-com:office:office">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="x-apple-disable-message-reformatting">
-  <title></title>
+  <title>My Shopping Cart</title>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -26,9 +23,9 @@
         <th class="text-price">Price</th>
       </tr>
       <tr>
-        <td>
+        <td class="product-td">
           <div class="product">
-            <img src="images/image1.jpg">
+            <img src="images/image1.jpg" alt="product1">
             <div class="product-description">
               <h2>Streamline Leggings</h2>
               <p>Product Code:<span class="bold-text">MLSB</span></p>
@@ -63,7 +60,7 @@
       <tr>
         <td>
           <div class="product">
-            <img src="images/image2.jpg">
+            <img src="images/image2.jpg" alt="product2">
             <div class="product-description">
               <h2>Streamline Sports Bra</h2>
               <p>Product Code:<span class="bold-text">MLSB</span></p>
@@ -121,7 +118,7 @@
           <form class="promocode-form">
             <input type="text" class="for-promo" placeholder="Please enter promo code">
             <button class="apply-discount">
-              <p>Apply Discount</p>
+              Apply Discount
             </button>
           </form>
         </td>
@@ -131,7 +128,9 @@
               Checkout
             </button>
             <button class="checkout-basket">
-              <a href="#"><img src="images/basket.png"></a>
+              <div class="basket-img">
+                <img src="images/basket.png" alt="basket">
+              </div>
             </button>
           </div>
           <button class="update-quantity-button">
