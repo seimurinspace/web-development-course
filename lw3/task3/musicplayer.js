@@ -22,8 +22,8 @@ var MusicPlayer = {
       this.currentTrack = this.trackList[
         this.trackList.indexOf(this.currentTrack) + 1 //Добавляем индекс (т.е. меняем трек на следующий)
       ];
-      this.status = "play";
-    } //сразу ставит статус = "play"
+      this.play();//сразу ставит статус = "play"
+    }
     else {
       this.currentTrack = this.trackList[0] //иначе, если индекс последний, ставит 0 индекс, т.е. снова проигрываем с song1.mp3
     }
@@ -34,7 +34,7 @@ var MusicPlayer = {
       this.currentTrack = this.trackList[
         this.trackList.indexOf(this.currentTrack) - 1 //Убираем индекс (т.е. меняем трек на предыдущий)
       ];
-      this.status = "play";//сразу ставит статус = "play"
+      this.play();//сразу ставит статус = "play"
     } //сразу ставит статус = "play"
     else {
       this.currentTrack = this.trackList[max - 1] //иначе, если индекс равен 0, ставит последний индекс, т.е. проигрываем с song4.mp3
