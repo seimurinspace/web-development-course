@@ -291,7 +291,6 @@ tbody {
   width: 15px;
   -webkit-filter: invert(1);
   filter: invert(1);
-  margin-left: 25px;
 }
 
 .update-quantity-button {
