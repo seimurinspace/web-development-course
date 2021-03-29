@@ -17,7 +17,7 @@ var MusicPlayer = {
     this.status = 'pause';
   },
   next: function () {
-    var max = MusicPlayer.trackList.length; //max служит нам переменной, откуда мы будем брать последний элемент массива
+    var max = this.trackList.length; //max служит нам переменной, откуда мы будем брать последний элемент массива
     if (this.trackList.indexOf(this.currentTrack) < max - 1) { //Если индекс trackList'a у currentTrack'a меньше двух (song3.mp3)
       this.currentTrack = this.trackList[
         this.trackList.indexOf(this.currentTrack) + 1 //Добавляем индекс (т.е. меняем трек на следующий)
@@ -29,7 +29,7 @@ var MusicPlayer = {
     }
   },
   prev: function () {
-    var max = MusicPlayer.trackList.length; //max служит нам переменной, откуда мы будем брать последний элемент массива
+    var max = this.trackList.length; //max служит нам переменной, откуда мы будем брать последний элемент массива
     if (this.trackList.indexOf(this.currentTrack) > 0) { //Если индекс trackList'a у currentTrack'a больше 0
       this.currentTrack = this.trackList[
         this.trackList.indexOf(this.currentTrack) - 1 //Убираем индекс (т.е. меняем трек на предыдущий)
