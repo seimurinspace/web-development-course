@@ -2,7 +2,7 @@
   .header
     .header_logotype
     .header_title
-    .header_alert-bell
+    .header_alert-bell--activated
     .header_user-icon
     .header_user-name
     .header_user-drop-list
