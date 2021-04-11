@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+.chip-container {
+  width: 100%;
+  padding: 10px;
+  background: #ffffff;
+  font-family: "Roboto";
+}
+
+.chip {
+  padding: 5px 10px;
+  border-radius: 50px;
+  display: inline-flex;
+  margin: 5px;
+}
+
+.basic {
+  border: 1.5px solid #cccccc;
+  color: #616161;
+  outline: none;
+}
+
+.icon-letters {
+  color: #616161;
+  margin: 0px 5px 0px -5px;
+  background: #bbbbbb;
+  padding: 2px;
+  border-radius: 50px;
+}
+
+.clickable {
+  border: 1.5px solid #cccccc;
+  color: #616161;
+  outline: none;
+  display: inline-flex;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.clickable:hover {
+  -webkit-filter: brightness(85%);
+  filter: brightness(85%);
+}
+
+.deletable {
+  border: 1.5px solid #cccccc;
+  color: #616161;
+  background-color: #cccccc;
+  outline: none;
+  display: inline-flex;
+  margin: 5px;
+}
+
+.delete-icon {
+  margin: 0px -5px 0px 5px;
+}
