@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.listing-block select,
+.store-block select {
+  width: 300px;
+  height: 150px;
+}
