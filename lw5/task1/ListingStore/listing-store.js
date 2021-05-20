@@ -19,6 +19,14 @@ window.onload = function () {
       storeElements.splice(elementPosition, 1);
     }
   }
+  function countElements(element, id) {
+    if (id === 'listing') {
+      element.textContent = `Listing (${listingElements.length}):`;
+    } else if (id === 'store') {
+      element.textContent = `Store (${storeElements.length}):`;
+    }
+  }
+
 
   function removeElements(element) {
     var elementPositionListing = listingElements.indexOf(element.textContent);
@@ -40,6 +48,12 @@ window.onload = function () {
     storeSelect.innerHTML = '';
     listingSelect.innerHTML = '';
 
+    //вставка "счетчика" элементов массивов
+    var totalListing = document.querySelector('.listing-total');
+    var totalStore = document.querySelector('.store-total');
+    countElements(totalListing, 'listing');
+    countElements(totalStore, 'store');
+
     // вставка элементов из Listing
     for (var i = 0; i < listingElements.length; i++) {
       var newOption = document.createElement('option');
@@ -59,9 +73,9 @@ window.onload = function () {
   var addListingButton = document.querySelector('#add-listing-button');
   addListingButton.onclick = function () {
     var selectedOptionListing = document.querySelector(
-      '.listing-select option:checked'
+      '.store-select option:checked'
     );
-    addToStoreElements(selectedOptionListing.innerText);
+    addToListingElements(selectedOptionListing.innerText);
     updateUI();
   };
 
@@ -69,9 +83,9 @@ window.onload = function () {
   var addStoreButton = document.querySelector('#add-store-button');
   addStoreButton.onclick = function () {
     var selectedOptionStore = document.querySelector(
-      '.store-select option:checked'
+      '.listing-select option:checked'
     );
-    addToListingElements(selectedOptionStore.innerText);
+    addToStoreElements(selectedOptionStore.innerText);
     updateUI();
   };
 
