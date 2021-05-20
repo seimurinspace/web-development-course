@@ -1,18 +1,17 @@
 >.container 
   >>.header
     >>>.header_logotype
-    >>>.header_title
+    >>>.header-text
+      >>>>.header-text_title
+      >>>>.header-text_subtitle
     >>>.header_alert-bell--activated
-    >>>.header_user-icon
-    >>>.header_user-name
-    >>>.header_user-drop-list
+    >>>.header-user
+      >>>>.header-user_icon
+      >>>>.header-user_name
+      >>>>.header-user_drop-list
   >.left-sidebar
-    >>.left-sidebar_dashboard--activated
-    >>.left-sidebar_accounts
-    >>.left-sidebar_mobile
-    >>.left-sidebar_payments
-    >>.left-sidebar_complaints
-    >>.left-sidebar_supports
+    >>.left-sidebar-menu
+      >>>.left-sidebar-menu_item
   >.dashboard-content
     >>.dashboard-content-profile
       >>>.dashboard-content-profile_user-avatar
@@ -24,14 +23,14 @@
       >>>.dashboard-content-profile_user-email
       >>>.dashboard-content-profile_sms-alert-consent-sensor
       >>>.dashboard-content-profile_save
-    >>.dashboard-content-account-sheet
-      >>>.dashboard-content-account-sheet_my-xpay-accounts-text
-      >>>.dashboard-content-account-sheet_search-magnifer
-      >>>.dashboard-content-account-sheet_edit
-      >>>.dashboard-content-account-sheet_active-account-number
-      >>>.dashboard-content-account-sheet_block-account
-      >>>.dashboard-content-account-sheet_blocked-account-number
-      >>>.dashboard-content-account-sheet_unlock-account
+    >>.dashboard-content-account-list
+      >>>.dashboard-content-account-list_my-xpay-accounts-text
+      >>>.dashboard-content-account-list_search-magnifer
+      >>>.dashboard-content-account-list_edit
+      >>>.dashboard-content-account-list_active-account-number
+      >>>.dashboard-content-account-list_block-account
+      >>>.dashboard-content-account-list_blocked-account-number
+      >>>.dashboard-content-account-list_unlock-account
     >>.dashboard-content-bills-sheet
       >>>.dashboard-content-bills-sheet_my-bills-text
       >>>.dashboard-content-bills-sheet_filter
