@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background-color: rgb(253, 185, 97);
+  padding: 80px 10px;
+  color: rgb(110, 139, 226);
+  font-family: Josefin Sans;
+  letter-spacing: 1.5px;
+}
+
+.todo-list {
+  margin: 0 auto;
+  width: 400px;
+  height: 600px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 13px 21px -6px rgba(0, 0, 0, 0.44);
+}
+
+.todo-list-footer_total {
+  font-size: 15px;
+  text-transform: uppercase;
+
+}
+
+.todo-list-date {
+  padding: 20px;
+  height: 60px;
+  border-bottom: 1px solid rgb(230, 224, 224);
+  display: flex;
+  align-items: center;
+
+}
+
+.todo-list-date_next {
+  width: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.todo-list-date-text_day {
+  margin-right: 7px;
+  font-size: 20px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-family: Josefin Sans;
+}
+
+.todo-list-date_prev {
+  width: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.todo-list-date-text {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list-content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list-content-item {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.todo-list-content-item--checked {
+  order: 1;
+}
+
+.todo-list-content-item_checkbox {
+  height: 15px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(110, 139, 226);
+}
+
+.todo-list-content-item_checkbox--checked {
+  background: rgb(110, 139, 226);
+  color: white;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(110, 139, 226);
+
+}
+
+.todo-list-content-item_text {
+  margin-left: 20px;
+  flex-grow: 1;
+
+}
+
+.todo-list-content-item_text--checked {
+  opacity: 0.6;
+  margin-left: 20px;
+  flex-grow: 1;
+  text-decoration: line-through;
+}
+
+.todo-list-content-item_time--checked {
+  display: none;
+}
+
+.todo-list-content-item_time {
+  text-transform: uppercase;
+}
+
+.todo-list-footer {
+  height: 50px;
+  padding: 20px;
+  border-top: 1px solid rgb(230, 224, 224);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.todo-list-footer_add-button {
+  font-weight: bold;
+  display: flex;
+  text-transform: uppercase;
+
+}
+
+.todo-list-footer_add-button-item {
+  font-size: 20px;
+  margin: -6px 8px;
+}
