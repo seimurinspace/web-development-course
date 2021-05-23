@@ -1,4 +1,4 @@
--.container 
+>.container 
   >.header
     >>.header_logotype
     >>.header-text
