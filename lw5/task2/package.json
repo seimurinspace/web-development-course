@@ -1,0 +1,20 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "qq",
+  "main": "listing-store.js",
+  "scripts": {
+    "minify-css": "uglifycss listing-store.css --output build/listing-store.min.css",
+    "minify-js": "uglifyjs listing-store.js -o build/listing-store.min.js",
+    "copy-html": "copyfiles index.html build",
+    "build": "npm-run-all copy-html minify-js minify-css"
+  },
+  "author": "Belousov Maksim",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "npm-run-all": "^4.1.5",
+    "uglify-js": "^3.13.8",
+    "uglifycss": "^0.0.29"
+  }
+}
