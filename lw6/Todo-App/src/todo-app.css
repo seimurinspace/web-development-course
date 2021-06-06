@@ -1,0 +1,12 @@
+.todo-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  margin-bottom: 10px;
+}

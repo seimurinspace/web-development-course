@@ -1,0 +1,33 @@
+{
+   "name": "todo-app",
+   "version": "1.0.0",
+   "description": "bb",
+   "main": "index.html",
+   "author": "Belousov Maksim",
+   "scripts": {
+      "start": "parcel index.html --open",
+      "test": "jest",
+      "build": "webpack --config webpack.config.js"
+   },
+   "devDependencies": {
+      "@babel/core": "^7.2.0",
+      "@babel/preset-env": "^7.14.4",
+      "babel-loader": "^8.2.2",
+      "html-webpack-plugin": "^5.3.1",
+      "jest": "^27.0.4",
+      "mini-css-extract-plugin": "^1.6.0",
+      "postcss": "^8.3.0",
+      "postcss-loader": "^5.3.0",
+      "postcss-preset-env": "^6.7.0",
+      "style-loader": "^2.0.0",
+      "webpack": "^5.38.1",
+      "webpack-cli": "^4.7.0"
+   },
+   "resolutions": {
+      "@babel/preset-env": "7.13.8"
+   },
+   "keywords": [
+      "javascript",
+      "starter"
+   ]
+}

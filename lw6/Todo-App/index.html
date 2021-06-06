@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TODO app</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="src/todo-app.min.css" />
+</head>
+
+<body>
+  <div class="todo-app">
+    <div class="todo-form">
+      <input type="text" name="todo-text" class="todo-form__input" placeholder="Новая задача" />
+      <button class="todo-form__button" type="button">add</button>
+    </div>
+
+    <div class="todo-list">
+      <!-- 
+				Будет состоять из таких элементов:
+				<div class="todo-list-item">
+          <label>
+            <input type="checkbox" />
+            Задача
+          </label>
+				</div>
+			  -->
+    </div>
+
+    <div class="todo-list-stat">
+      Выполнено задач: <span class="todo-list-stat__completed">0</span>
+    </div>
+  </div>
+
+  <script src="src/todo-app.min.js"></script>
+</body>
+
+</html>
